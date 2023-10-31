@@ -68,21 +68,21 @@
         let currentPage = 1;
 
         const produtos = [
-            { nome: 'Computador Fácil Intel Core i5 8GB HD 1TB', image: './img/imagem1.jpg', descricao: 'R$ 829,00 em até 8x de R$ 103,62', valor: '729,52' },
-            { nome: 'Computador Completo I3 7º 16GB DDR4 ssd 480 Monitor 19 Teclado e Mouse', image: './img/imagem2.jpg', descricao: 'até 8x de R$ 243,75', valor: '1.950,00' },
-            { nome: 'Computador Completo Intel Core i7 16GB SSD 480GB Monitor 19"', image: './img/imagem3.jpg', descricao: 'Em até 10x R$ 160,92 sem juros', valor: '1.609,02' },
-            { nome: 'All in One Positivo Union C4120B-21 Intel - Celeron 4GB 120GB SSD IPS 21,5” Full HD Windows 11', image: './img/imagem4.jpg', descricao: 'ou R$ 2.324,99 em 10x de R$ 232,50 sem juros', valor: '2.092,49' },
-            { nome: 'Notebook Samsung Book Intel Celeron 4GB 256GB SSD - 15,6” Full HD Windows 11 NP550XDA-KP3BR', image: './img/imagem5.jpg', descricao: 'ou R$ 1.999,00 em 10x de R$ 199,90 sem juros', valor: '1.799,10' },
-            { nome: 'Apple notebook MacBook Air de 13 polegadas: Chip M2 da Apple com CPU de oito núcleos e GPU de oito núcleos, de 256 GB SSD - Cinza espacial', image: './img/imagem6.jpg', descricao: 'Em até 10x de R$ 1.329,90 sem juros', valor: '13.299,00' },
-            { nome: 'Webcam Full HD 1080p com microfone, Webcams USB para computador portátil para PC, para chamadas de vídeo, gravação, conferência e jogos (Preto, OneSize)', image: './img/imagem7.jpg', descricao: '', valor: '52,00' },
-            { nome: 'Kit Teclado + Mouse Gamer 6400 DPI Ranger RGB Rainbow Grafite Fortrek', image: './img/imagem8.jpg', descricao: 'Em até 2x de R$ 62,00 sem juros', valor: '123,99' },
-            { nome: 'Impressora Multifuncional Epson Ecotank L3250 - Tanque de Tinta Colorida USB Wi-Fi', image: './img/imagem9.jpg', descricao: 'ou R$ 1.249,00 em 10x de R$ 124,90 sem juros', valor: '1.124,10' },
-            { nome: 'Cartucho de Tinta HP 662 Preto - Original', image: './img/imagem10.jpg', descricao: '3% de desconto no pix', valor: '53,34' },
-            { nome: 'Placa de Vídeo RX 6600 CLD 8G ASRock AMD Radeon, 8GB, GDDR6 - 90-GA2RZZ-00UANF', image: './img/imagem11.jpg', descricao: 'ou R$ 1.315,78 em 10x de R$ 131,58 sem juros', valor: '1.249,99' },
-            { nome: 'Monitor Gamer UltraWide LG 26WQ500-B 25,7” - Full HD 75Hz IPS 1ms HDMI FreeSync', image: './img/imagem12.jpg', descricao: 'ou R$ 979,00 em 8x de R$ 122,38 sem juros', valor: '910,47'},
-            { nome: 'Mouse sem Fio Logitech Óptico 1000DPI 3 Botões - M170 Preto', image: './img/imagem13.jpg', descricao: '7% de desconto no pix', valor: '64,16' },
-            { nome: 'Notebook Samsung Book Intel Core i3 4GB - 256GB SSD 15,6” Full HD Windows 11 NP550XDA-KV3BR', image: './img/imagem14.jpg', descricao: 'ou R$ 2.199,00 em 10x de R$ 219,90 sem juros', valor: '1.979,10' },
-            { nome: 'Cartão de Memória 64gb Micro Sd Ultra 100mbs Sandisk', image: './img/imagem15.jpg', descricao: '17% de desconto no pix', valor: '40,66' },           
+            { nome: 'Computador Fácil Intel Core i5 8GB HD 1TB', image: './imagem1.jpg', descricao: 'R$ 829,00 em até 8x de R$ 103,62', valor: '729,52' },
+            { nome: 'Computador Completo I3 7º 16GB DDR4 ssd 480 Monitor 19 Teclado e Mouse', image: './imagem2.jpg', descricao: 'até 8x de R$ 243,75', valor: '1.950,00' },
+            { nome: 'Computador Completo Intel Core i7 16GB SSD 480GB Monitor 19"', image: './imagem3.jpg', descricao: 'Em até 10x R$ 160,92 sem juros', valor: '1.609,02' },
+            { nome: 'All in One Positivo Union C4120B-21 Intel - Celeron 4GB 120GB SSD IPS 21,5” Full HD Windows 11', image: './imagem4.jpg', descricao: 'ou R$ 2.324,99 em 10x de R$ 232,50 sem juros', valor: '2.092,49' },
+            { nome: 'Notebook Samsung Book Intel Celeron 4GB 256GB SSD - 15,6” Full HD Windows 11 NP550XDA-KP3BR', image: './imagem5.jpg', descricao: 'ou R$ 1.999,00 em 10x de R$ 199,90 sem juros', valor: '1.799,10' },
+            { nome: 'Apple notebook MacBook Air de 13 polegadas: Chip M2 da Apple com CPU de oito núcleos e GPU de oito núcleos, de 256 GB SSD - Cinza espacial', image: './imagem6.jpg', descricao: 'Em até 10x de R$ 1.329,90 sem juros', valor: '13.299,00' },
+            { nome: 'Webcam Full HD 1080p com microfone, Webcams USB para computador portátil para PC, para chamadas de vídeo, gravação, conferência e jogos (Preto, OneSize)', image: './imagem7.jpg', descricao: '', valor: '52,00' },
+            { nome: 'Kit Teclado + Mouse Gamer 6400 DPI Ranger RGB Rainbow Grafite Fortrek', image: './imagem8.jpg', descricao: 'Em até 2x de R$ 62,00 sem juros', valor: '123,99' },
+            { nome: 'Impressora Multifuncional Epson Ecotank L3250 - Tanque de Tinta Colorida USB Wi-Fi', image: './imagem9.jpg', descricao: 'ou R$ 1.249,00 em 10x de R$ 124,90 sem juros', valor: '1.124,10' },
+            { nome: 'Cartucho de Tinta HP 662 Preto - Original', image: './imagem10.jpg', descricao: '3% de desconto no pix', valor: '53,34' },
+            { nome: 'Placa de Vídeo RX 6600 CLD 8G ASRock AMD Radeon, 8GB, GDDR6 - 90-GA2RZZ-00UANF', image: './imagem11.jpg', descricao: 'ou R$ 1.315,78 em 10x de R$ 131,58 sem juros', valor: '1.249,99' },
+            { nome: 'Monitor Gamer UltraWide LG 26WQ500-B 25,7” - Full HD 75Hz IPS 1ms HDMI FreeSync', image: './imagem12.jpg', descricao: 'ou R$ 979,00 em 8x de R$ 122,38 sem juros', valor: '910,47'},
+            { nome: 'Mouse sem Fio Logitech Óptico 1000DPI 3 Botões - M170 Preto', image: './imagem13.jpg', descricao: '7% de desconto no pix', valor: '64,16' },
+            { nome: 'Notebook Samsung Book Intel Core i3 4GB - 256GB SSD 15,6” Full HD Windows 11 NP550XDA-KV3BR', image: './imagem14.jpg', descricao: 'ou R$ 2.199,00 em 10x de R$ 219,90 sem juros', valor: '1.979,10' },
+            { nome: 'Cartão de Memória 64gb Micro Sd Ultra 100mbs Sandisk', image: './imagem15.jpg', descricao: '17% de desconto no pix', valor: '40,66' },           
             // Adicione mais produtos...
         ];
 
